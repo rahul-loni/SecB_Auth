@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".SignupPage">
+
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Email"
+        android:textSize="22sp"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/txt_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Password"
+        android:textSize="22sp"
+        android:inputType="numberPassword"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/txt_Cpassword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Confirm Password"
+        android:textSize="22sp"
+        android:inputType="numberPassword"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Signup"
+        android:textSize="32sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
