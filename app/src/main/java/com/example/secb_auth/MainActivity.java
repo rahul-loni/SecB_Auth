@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 try {
                     sleep(3000);
-                    Intent intent=new Intent(getApplicationContext(), LoginPage.class);
+                    Intent intent=new Intent(getApplicationContext(), SignupPage.class);
                     startActivity(intent);
                 }catch (InterruptedException e){
                     e.printStackTrace();
